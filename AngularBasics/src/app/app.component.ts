@@ -7,7 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularBasics';
+  imgUrl: string;
   ngOnInit():void {
     this.title="Hello from Bridgelabz";
+    this.imgUrl='../assets/Bridgelabz.png';
    }
 }
